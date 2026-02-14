@@ -1,4 +1,4 @@
-# TEST MAGANG POLITEKNIK — PHP Native MVC
+# WEBSITE AUTH AND LOGOUT — PHP Native MVC
 
 Aplikasi mendukung fitur:
 
