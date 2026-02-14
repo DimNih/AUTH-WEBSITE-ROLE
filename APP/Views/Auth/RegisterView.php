@@ -36,9 +36,17 @@
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Password</label>
-                <input type="password" name="password" class="form-control" required>
-            </div>
+    <label class="form-label">Password</label>
+
+    <div class="input-group">
+        <input type="password" name="password" id="password" class="form-control" required>
+
+        <button type="button" class="btn btn-outline-secondary" id="togglePass">
+            👁
+        </button>
+    </div>
+</div>
+
 
             <div class="mb-3">
                 <label class="form-label">Role</label>
@@ -48,6 +56,7 @@
                     <option value="mahasiswa">Mahasiswa</option>
                 </select>
             </div>
+            
             <button class="btn btn-success w-100">Register</button>
         </form>
 
@@ -59,6 +68,22 @@
         </div>
     </div>
 </div>
+
+<script>
+const pass = document.getElementById("password");
+const toggle = document.getElementById("togglePass");
+
+toggle.addEventListener("click", () => {
+    if(pass.type === "password") {
+        pass.type = "text";
+        toggle.textContent = "🙈";
+    } else {
+        pass.type = "password";
+        toggle.textContent = "👁";
+    }
+});
+</script>
+
 
 </body>
 </html>

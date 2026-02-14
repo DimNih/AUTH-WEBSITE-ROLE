@@ -13,7 +13,13 @@ class AdminController {
 
         if($_SESSION['user']['role'] != 'admin') {
             http_response_code(403);
-            die("403 Forbidden");
+
+            $code = 403;
+            $title = "Akses Ditolak";
+            $message = "Kamu tidak memiliki izin untuk mengakses halaman ini.";
+
+            require __DIR__ . '/../Views/Error.php';
+            exit;
         }
     }
 

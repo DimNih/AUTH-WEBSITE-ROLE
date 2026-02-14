@@ -46,5 +46,9 @@ switch ($uri) {
 
     default:
         http_response_code(404);
-        echo "404 Not Found";
+        $code = 404;
+        $title = "Halaman Tidak Ditemukan";
+        $message = "Maaf, halaman yang kamu cari tidak tersedia.";
+        require '../APP/Views/Error.php';
+
 }

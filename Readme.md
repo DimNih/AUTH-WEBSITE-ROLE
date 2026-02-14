@@ -101,26 +101,31 @@ http://localhost/TEST-Magang_POLITEKNIK_MITRA_INDUSTRI/public
 
 ### Halaman Register
 
+![Halaman Register](IMAGE/RegisPage.jpeg)
 
 ---
 
 ### Halaman Login
 
+![Halaman Login](IMAGE/LoginPage.jpeg)
 
 ---
 
 ### Dashboard Admin
 
+![Dashboard Admin](IMAGE/DashboardAdmin.jpeg)
 
 ---
 
 ### Dashboard Dosen
 
+![Dashboard Dosen](IMAGE/DashboardDosen.jpeg)
 
 ---
 
 ### Dashboard Mahasiswa
 
+![Dashboard Mahasiswa](IMAGE/DashboardMahasiswa.jpeg)
 
 ---
 
@@ -128,6 +133,13 @@ http://localhost/TEST-Magang_POLITEKNIK_MITRA_INDUSTRI/public
 
 Contoh: Mahasiswa mencoba mengakses dashboard Admin.
 
+![403 Forbidden](IMAGE/NotAccess.jpeg)
+
+---
+
+### Bukti 404 Not Found
+
+![404 Not Found](IMAGE/Notfound.jpeg)
 
 ---
 
