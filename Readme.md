@@ -131,7 +131,7 @@ http://localhost/TEST-Magang_POLITEKNIK_MITRA_INDUSTRI/public
 
 ### Bukti 403 Forbidden
 
-Contoh: Mahasiswa mencoba mengakses dashboard Admin.
+Contoh: Mahasiswa mencoba mengakses dashboard Dosen.
 
 ![403 Forbidden](IMAGE/NotAccess.jpeg)
 
